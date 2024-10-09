@@ -7,6 +7,4 @@ def encrypt(text, shift, letter_bank):
             encrypted_text += letter_bank[index]
         else:
             encrypted_text += i
-    return encrypted_text
-
-print(encrypt(text, shift, letter_bank))    
+    return encrypted_text 
