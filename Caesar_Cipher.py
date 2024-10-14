@@ -1,5 +1,5 @@
 def encrypt(text, shift):
-    letter_bank = "abcdefghijklnmopqrstuvwxyz"
+    letter_bank = "abcdefghijklmnopqrstuvwxyz"
     encrypted_text = ""
     for i in text.lower():
         if i in letter_bank:
@@ -10,7 +10,7 @@ def encrypt(text, shift):
     return encrypted_text
 
 def unencrypt(text, shift):
-    letter_bank = "abcdefghijklnmopqrstuvwxyz"
+    letter_bank = "abcdefghijklmnopqrstuvwxyz"
     encrypted_text = ""
     for i in text.lower():
         if i in letter_bank:
